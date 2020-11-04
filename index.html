@@ -9,7 +9,7 @@
 	<title>Landing Page</title>
 </head>
 <body id="body" >
-	<div class="sidebar hide-on-mobile">
+	<div class="sidebar hide-on-mobile" id="mySidenav">
 		<div class="icons">
 			<div class="logodiv">
 				<a href="#" class="logo"><img src="images/nucleus.png"></a>
@@ -26,7 +26,7 @@
 	
 	<main id="main_container">
 		<div class="nav_container hide-on-mobile">
-			<nav class="navbar">			
+			<nav class="navbar" id="nav_container">			
 				<a href="#home">Home</a>
 				<a href="#news">News</a>
 				<a href="#contact">Contact</a>
@@ -40,7 +40,7 @@
 
 		<div class="mobile-container hide-on-desktop">
 			<div class="topnav">
-				<a class="cart"><img src="images/cart.png" alt="shopping-cart"></a>
+				<a class="cart" onclick="openSidenav()"><img src="images/cart.png" alt="shopping-cart"></a>
 				<div id="myLinks" class="sidenav_mobile">
 					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 					<a href="#home">Home</a>
@@ -63,7 +63,7 @@
 				<h2 class="image_text">SPEEDY<br><span class="inner_text">QUADS</span></h2>
 			</div>
 			
-			<div class="container_text">
+			<div class="container_text" id="content">
 				<div class="first-text">
 					<h2>PONNKN SPEEDY QUADS
 						<span style="color: yellow;">&starf;</span>
@@ -108,7 +108,7 @@
 					</p>
 				</div>
 				
-					<button class="button">ultricies a vehicula</button>
+					<button class="button" id="button">ultricies a vehicula</button>
 				
 				
 				

@@ -34,7 +34,7 @@ body{
     border-radius: 50%;
     padding: 5px;
 }
-a .btn-social{
+a .bottom-icons{
     color:  #B3D4E0 !important;
     display: block;
 }
@@ -183,6 +183,18 @@ main{
     .hide-on-desktop{
         display: block;
     }
+    /*.sidebar {
+        width: 100%;
+        height: 40px;
+        position: relative;    
+        display: flex;
+        overflow: hidden;
+    }
+    .sidebar a {
+        display: inline-flex;
+        float: none;
+    }*/
+    
     .topnav {
         overflow: hidden;
         position: relative;
